@@ -47,3 +47,11 @@ export default function Home() {
           display: "inline-flex", alignItems: "center", gap: 10, background: "#c8f264",
           color: "#0a0a0f", padding: "14px 28px", borderRadius: 10, fontSize: 15,
           fontWeight: 600, textDecoration: "none", fontFamily: "'Syne', sans-serif",
+        }}>
+          Connect WHOOP →
+        </a>
+      </div>
+      <style>{`@keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.5;}}`}</style>
+    </div>
+  );
+}
